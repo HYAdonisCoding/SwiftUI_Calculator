@@ -24,6 +24,8 @@ struct CalculatorButtonPad: View {
     }
 }
 
+let scale: CGFloat = UIScreen.main.bounds.width / 414
+
 struct ContentView: View {
     
     var body: some View {
@@ -40,6 +42,7 @@ struct ContentView: View {
             CalculatorButtonPad()
                 .padding(.bottom)
         }
+        .scaleEffect(scale)
         
         
     }
@@ -48,7 +51,11 @@ struct ContentView: View {
 #if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView().previewDevice("iPhone SE")
+        }
+        
     }
 }
 #endif
