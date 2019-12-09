@@ -52,8 +52,9 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
+            ContentView().environment(\.colorScheme, .dark)
             ContentView().previewDevice("iPhone SE")
+            ContentView().previewDevice("iPad Air 2")
         }
         
     }
@@ -73,7 +74,7 @@ struct CalculatorButton: View {
                 .font(.system(size: fontSize))
                 .foregroundColor(.white)
                 .frame(width: size.width, height: size.height, alignment: .center)
-                .background(Color.orange)
+                .background(Color(backgroundColorName))
                 .cornerRadius(size.width/2)
         }
     }

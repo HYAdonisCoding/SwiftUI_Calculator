@@ -47,9 +47,9 @@ extension CalculatorButtonItem {
     
     var backgroundColorName: String {
         switch self {
-        case .digit, .dot: return "digitBckground"
-        case .op: return "digitBckground"
-        case .command: return "digitBckground"
+        case .digit, .dot: return "digitBackground"
+        case .op: return "operatorBackground"
+        case .command: return "commandBackground"
         }
     }
 }
