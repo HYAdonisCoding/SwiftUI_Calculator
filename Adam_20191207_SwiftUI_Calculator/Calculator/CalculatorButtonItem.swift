@@ -15,7 +15,7 @@ enum CalculatorButtonItem {
         case plus = "+"
         case mins = "-"
         case divide = "÷"
-        case mutiply = "x"
+        case mutiply = "×"
         case equal = "="
     }
     enum Command: String {
@@ -52,6 +52,26 @@ extension CalculatorButtonItem {
         case .command: return "commandBackground"
         }
     }
+    
+    var foregroundColor: Color {
+        switch self {
+        case .command:
+            return Color("commandForeground")
+        default:
+            return .white
+        }
+    }
 }
 
 extension CalculatorButtonItem: Hashable {}
+
+extension CalculatorButtonItem: CustomStringConvertible {
+    var description: String {
+        switch self {
+        case .digit(let num): return String(num)
+        case .dot: return "."
+        case .op(let op): return op.rawValue
+        case .command(let command): return command.rawValue
+        }
+    }
+}
