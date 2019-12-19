@@ -16,6 +16,13 @@
 		0C6022F9239B9165002708D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6022F7239B9165002708D5 /* LaunchScreen.storyboard */; };
 		0C602302239BA037002708D5 /* CalculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C602301239BA037002708D5 /* CalculatorButtonItem.swift */; };
 		7A59F50523AA026C00F1FA8A /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A59F50423AA026C00F1FA8A /* CalculatorModel.swift */; };
+		7A86A28423AA2A1D001CE5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A86A28323AA2A1D001CE5A1 /* AppDelegate.swift */; };
+		7A86A28623AA2A1D001CE5A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A86A28523AA2A1D001CE5A1 /* SceneDelegate.swift */; };
+		7A86A28823AA2A1D001CE5A1 /* Adam_20191218_PokeMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A86A28723AA2A1D001CE5A1 /* Adam_20191218_PokeMaster.xcdatamodeld */; };
+		7A86A28A23AA2A1D001CE5A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A86A28923AA2A1D001CE5A1 /* ContentView.swift */; };
+		7A86A28C23AA2A1F001CE5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A86A28B23AA2A1F001CE5A1 /* Assets.xcassets */; };
+		7A86A28F23AA2A1F001CE5A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A86A28E23AA2A1F001CE5A1 /* Preview Assets.xcassets */; };
+		7A86A29223AA2A1F001CE5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A86A29023AA2A1F001CE5A1 /* LaunchScreen.storyboard */; };
 		7A9E07B923A716DC001C7B2F /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E07B823A716DC001C7B2F /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,11 +38,26 @@
 		0C6022FA239B9166002708D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C602301239BA037002708D5 /* CalculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonItem.swift; sourceTree = "<group>"; };
 		7A59F50423AA026C00F1FA8A /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
+		7A86A28123AA2A1D001CE5A1 /* Adam_20191218_PokeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adam_20191218_PokeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A86A28323AA2A1D001CE5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A86A28523AA2A1D001CE5A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A86A28923AA2A1D001CE5A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A86A28B23AA2A1F001CE5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A86A28E23AA2A1F001CE5A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A86A29123AA2A1F001CE5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A86A29323AA2A1F001CE5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A9E07B823A716DC001C7B2F /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0C6022E3239B9165002708D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A86A27E23AA2A1D001CE5A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				0C6022E8239B9165002708D5 /* Adam_20191207_SwiftUI_Calculator */,
+				7A86A28223AA2A1D001CE5A1 /* Adam_20191218_PokeMaster */,
 				0C6022E7239B9165002708D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				0C6022E6239B9165002708D5 /* Adam_20191207_SwiftUI_Calculator.app */,
+				7A86A28123AA2A1D001CE5A1 /* Adam_20191218_PokeMaster.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +119,29 @@
 			path = Calculator;
 			sourceTree = "<group>";
 		};
+		7A86A28223AA2A1D001CE5A1 /* Adam_20191218_PokeMaster */ = {
+			isa = PBXGroup;
+			children = (
+				7A86A28323AA2A1D001CE5A1 /* AppDelegate.swift */,
+				7A86A28523AA2A1D001CE5A1 /* SceneDelegate.swift */,
+				7A86A28923AA2A1D001CE5A1 /* ContentView.swift */,
+				7A86A28B23AA2A1F001CE5A1 /* Assets.xcassets */,
+				7A86A29023AA2A1F001CE5A1 /* LaunchScreen.storyboard */,
+				7A86A29323AA2A1F001CE5A1 /* Info.plist */,
+				7A86A28723AA2A1D001CE5A1 /* Adam_20191218_PokeMaster.xcdatamodeld */,
+				7A86A28D23AA2A1F001CE5A1 /* Preview Content */,
+			);
+			path = Adam_20191218_PokeMaster;
+			sourceTree = "<group>";
+		};
+		7A86A28D23AA2A1F001CE5A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A86A28E23AA2A1F001CE5A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,18 +162,38 @@
 			productReference = 0C6022E6239B9165002708D5 /* Adam_20191207_SwiftUI_Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7A86A28023AA2A1D001CE5A1 /* Adam_20191218_PokeMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A86A29623AA2A1F001CE5A1 /* Build configuration list for PBXNativeTarget "Adam_20191218_PokeMaster" */;
+			buildPhases = (
+				7A86A27D23AA2A1D001CE5A1 /* Sources */,
+				7A86A27E23AA2A1D001CE5A1 /* Frameworks */,
+				7A86A27F23AA2A1D001CE5A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adam_20191218_PokeMaster;
+			productName = Adam_20191218_PokeMaster;
+			productReference = 7A86A28123AA2A1D001CE5A1 /* Adam_20191218_PokeMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0C6022DE239B9165002708D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = Adam;
 				TargetAttributes = {
 					0C6022E5239B9165002708D5 = {
 						CreatedOnToolsVersion = 11.2.1;
+					};
+					7A86A28023AA2A1D001CE5A1 = {
+						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
@@ -144,6 +211,7 @@
 			projectRoot = "";
 			targets = (
 				0C6022E5239B9165002708D5 /* Adam_20191207_SwiftUI_Calculator */,
+				7A86A28023AA2A1D001CE5A1 /* Adam_20191218_PokeMaster */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +224,16 @@
 				0C6022F9239B9165002708D5 /* LaunchScreen.storyboard in Resources */,
 				0C6022F6239B9165002708D5 /* Preview Assets.xcassets in Resources */,
 				0C6022F3239B9165002708D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A86A27F23AA2A1D001CE5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A86A29223AA2A1F001CE5A1 /* LaunchScreen.storyboard in Resources */,
+				7A86A28F23AA2A1F001CE5A1 /* Preview Assets.xcassets in Resources */,
+				7A86A28C23AA2A1F001CE5A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +254,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7A86A27D23AA2A1D001CE5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A86A28423AA2A1D001CE5A1 /* AppDelegate.swift in Sources */,
+				7A86A28823AA2A1D001CE5A1 /* Adam_20191218_PokeMaster.xcdatamodeld in Sources */,
+				7A86A28A23AA2A1D001CE5A1 /* ContentView.swift in Sources */,
+				7A86A28623AA2A1D001CE5A1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -183,6 +272,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				0C6022F8239B9165002708D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7A86A29023AA2A1F001CE5A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A86A29123AA2A1F001CE5A1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -344,6 +441,48 @@
 			};
 			name = Release;
 		};
+		7A86A29423AA2A1F001CE5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Adam_20191218_PokeMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Adam_20191218_PokeMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikoyo.Adam-20191218-PokeMaster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A86A29523AA2A1F001CE5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Adam_20191218_PokeMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = N2KQ965WEJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Adam_20191218_PokeMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikoyo.Adam-20191218-PokeMaster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -365,6 +504,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7A86A29623AA2A1F001CE5A1 /* Build configuration list for PBXNativeTarget "Adam_20191218_PokeMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A86A29423AA2A1F001CE5A1 /* Debug */,
+				7A86A29523AA2A1F001CE5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -375,6 +523,14 @@
 			);
 			currentVersion = 0C6022EE239B9165002708D5 /* Adam_20191207_SwiftUI_Calculator.xcdatamodel */;
 			path = Adam_20191207_SwiftUI_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		7A86A28723AA2A1D001CE5A1 /* Adam_20191218_PokeMaster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+			);
+			path = Adam_20191218_PokeMaster.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
