@@ -30,7 +30,7 @@ struct Pokemon: Codable {
         }
         
         struct Internal: Codable {
-            let name: String
+            let name: Case
         }
         
         let baseStat: Int

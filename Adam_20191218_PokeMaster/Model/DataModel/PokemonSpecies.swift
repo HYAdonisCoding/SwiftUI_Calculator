@@ -14,7 +14,7 @@ struct PokemonSpecies: Codable {
         enum Name: String, Codable {
             case black, blue, brown, gray, green, pink, purple, red, white, yellow
             var color: SwiftUI.Color {
-                return SwiftUI.Color("pokemon - \(rawValue)")
+                return SwiftUI.Color("pokemon-\(rawValue)")
             }
         }
         let name: Name
