@@ -94,6 +94,7 @@
 		7A86A32E23AB4F5C001CE5A1 /* pokemon-species-4.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A86A2EF23AB4F5C001CE5A1 /* pokemon-species-4.json */; };
 		7A86A32F23AB4F5C001CE5A1 /* ability-34.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A86A2F123AB4F5C001CE5A1 /* ability-34.json */; };
 		7A86A33023AB4F5C001CE5A1 /* ability-65.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A86A2F223AB4F5C001CE5A1 /* ability-65.json */; };
+		7A86A33723AB5142001CE5A1 /* PokemonInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A86A33623AB5142001CE5A1 /* PokemonInfoRow.swift */; };
 		7A9E07B923A716DC001C7B2F /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9E07B823A716DC001C7B2F /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
@@ -188,6 +189,7 @@
 		7A86A2EF23AB4F5C001CE5A1 /* pokemon-species-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-species-4.json"; sourceTree = "<group>"; };
 		7A86A2F123AB4F5C001CE5A1 /* ability-34.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ability-34.json"; sourceTree = "<group>"; };
 		7A86A2F223AB4F5C001CE5A1 /* ability-65.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ability-65.json"; sourceTree = "<group>"; };
+		7A86A33623AB5142001CE5A1 /* PokemonInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoRow.swift; sourceTree = "<group>"; };
 		7A9E07B823A716DC001C7B2F /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -264,6 +266,7 @@
 		7A86A28223AA2A1D001CE5A1 /* Adam_20191218_PokeMaster */ = {
 			isa = PBXGroup;
 			children = (
+				7A86A33123AB50E9001CE5A1 /* View */,
 				7A86A2B123AB4F5C001CE5A1 /* JSON */,
 				7A86A29E23AB1419001CE5A1 /* Utils */,
 				7A86A29B23AB13FA001CE5A1 /* Model */,
@@ -339,36 +342,36 @@
 		7A86A2B223AB4F5C001CE5A1 /* pokemon */ = {
 			isa = PBXGroup;
 			children = (
-				7A86A2B323AB4F5C001CE5A1 /* pokemon-7.json */,
-				7A86A2B423AB4F5C001CE5A1 /* pokemon-14.json */,
-				7A86A2B523AB4F5C001CE5A1 /* pokemon-22.json */,
-				7A86A2B623AB4F5C001CE5A1 /* pokemon-18.json */,
-				7A86A2B723AB4F5C001CE5A1 /* pokemon-19.json */,
-				7A86A2B823AB4F5C001CE5A1 /* pokemon-23.json */,
-				7A86A2B923AB4F5C001CE5A1 /* pokemon-15.json */,
-				7A86A2BA23AB4F5C001CE5A1 /* pokemon-6.json */,
-				7A86A2BB23AB4F5C001CE5A1 /* pokemon-24.json */,
-				7A86A2BC23AB4F5C001CE5A1 /* pokemon-28.json */,
 				7A86A2BD23AB4F5C001CE5A1 /* pokemon-1.json */,
+				7A86A2C623AB4F5C001CE5A1 /* pokemon-2.json */,
+				7A86A2C523AB4F5C001CE5A1 /* pokemon-3.json */,
+				7A86A2CF23AB4F5C001CE5A1 /* pokemon-4.json */,
+				7A86A2CA23AB4F5C001CE5A1 /* pokemon-5.json */,
+				7A86A2BA23AB4F5C001CE5A1 /* pokemon-6.json */,
+				7A86A2B323AB4F5C001CE5A1 /* pokemon-7.json */,
+				7A86A2CE23AB4F5C001CE5A1 /* pokemon-8.json */,
+				7A86A2CB23AB4F5C001CE5A1 /* pokemon-9.json */,
+				7A86A2C423AB4F5C001CE5A1 /* pokemon-10.json */,
+				7A86A2C723AB4F5C001CE5A1 /* pokemon-11.json */,
 				7A86A2BE23AB4F5C001CE5A1 /* pokemon-12.json */,
 				7A86A2BF23AB4F5C001CE5A1 /* pokemon-13.json */,
-				7A86A2C023AB4F5C001CE5A1 /* pokemon-29.json */,
-				7A86A2C123AB4F5C001CE5A1 /* pokemon-25.json */,
-				7A86A2C223AB4F5C001CE5A1 /* pokemon-26.json */,
-				7A86A2C323AB4F5C001CE5A1 /* pokemon-30.json */,
-				7A86A2C423AB4F5C001CE5A1 /* pokemon-10.json */,
-				7A86A2C523AB4F5C001CE5A1 /* pokemon-3.json */,
-				7A86A2C623AB4F5C001CE5A1 /* pokemon-2.json */,
-				7A86A2C723AB4F5C001CE5A1 /* pokemon-11.json */,
-				7A86A2C823AB4F5C001CE5A1 /* pokemon-27.json */,
+				7A86A2B423AB4F5C001CE5A1 /* pokemon-14.json */,
+				7A86A2B923AB4F5C001CE5A1 /* pokemon-15.json */,
 				7A86A2C923AB4F5C001CE5A1 /* pokemon-16.json */,
-				7A86A2CA23AB4F5C001CE5A1 /* pokemon-5.json */,
-				7A86A2CB23AB4F5C001CE5A1 /* pokemon-9.json */,
+				7A86A2D023AB4F5C001CE5A1 /* pokemon-17.json */,
+				7A86A2B623AB4F5C001CE5A1 /* pokemon-18.json */,
+				7A86A2B723AB4F5C001CE5A1 /* pokemon-19.json */,
 				7A86A2CC23AB4F5C001CE5A1 /* pokemon-20.json */,
 				7A86A2CD23AB4F5C001CE5A1 /* pokemon-21.json */,
-				7A86A2CE23AB4F5C001CE5A1 /* pokemon-8.json */,
-				7A86A2CF23AB4F5C001CE5A1 /* pokemon-4.json */,
-				7A86A2D023AB4F5C001CE5A1 /* pokemon-17.json */,
+				7A86A2B523AB4F5C001CE5A1 /* pokemon-22.json */,
+				7A86A2B823AB4F5C001CE5A1 /* pokemon-23.json */,
+				7A86A2BB23AB4F5C001CE5A1 /* pokemon-24.json */,
+				7A86A2C123AB4F5C001CE5A1 /* pokemon-25.json */,
+				7A86A2C223AB4F5C001CE5A1 /* pokemon-26.json */,
+				7A86A2C823AB4F5C001CE5A1 /* pokemon-27.json */,
+				7A86A2BC23AB4F5C001CE5A1 /* pokemon-28.json */,
+				7A86A2C023AB4F5C001CE5A1 /* pokemon-29.json */,
+				7A86A2C323AB4F5C001CE5A1 /* pokemon-30.json */,
 			);
 			path = pokemon;
 			sourceTree = "<group>";
@@ -376,36 +379,36 @@
 		7A86A2D123AB4F5C001CE5A1 /* species */ = {
 			isa = PBXGroup;
 			children = (
-				7A86A2D223AB4F5C001CE5A1 /* pokemon-species-11.json */,
-				7A86A2D323AB4F5C001CE5A1 /* pokemon-species-7.json */,
-				7A86A2D423AB4F5C001CE5A1 /* pokemon-species-27.json */,
-				7A86A2D523AB4F5C001CE5A1 /* pokemon-species-30.json */,
-				7A86A2D623AB4F5C001CE5A1 /* pokemon-species-26.json */,
-				7A86A2D723AB4F5C001CE5A1 /* pokemon-species-6.json */,
-				7A86A2D823AB4F5C001CE5A1 /* pokemon-species-10.json */,
-				7A86A2D923AB4F5C001CE5A1 /* pokemon-species-21.json */,
-				7A86A2DA23AB4F5C001CE5A1 /* pokemon-species-17.json */,
 				7A86A2DB23AB4F5C001CE5A1 /* pokemon-species-1.json */,
-				7A86A2DC23AB4F5C001CE5A1 /* pokemon-species-16.json */,
-				7A86A2DD23AB4F5C001CE5A1 /* pokemon-species-20.json */,
-				7A86A2DE23AB4F5C001CE5A1 /* pokemon-species-23.json */,
-				7A86A2DF23AB4F5C001CE5A1 /* pokemon-species-19.json */,
-				7A86A2E023AB4F5C001CE5A1 /* pokemon-species-3.json */,
-				7A86A2E123AB4F5C001CE5A1 /* pokemon-species-15.json */,
-				7A86A2E223AB4F5C001CE5A1 /* pokemon-species-14.json */,
 				7A86A2E323AB4F5C001CE5A1 /* pokemon-species-2.json */,
-				7A86A2E423AB4F5C001CE5A1 /* pokemon-species-18.json */,
-				7A86A2E523AB4F5C001CE5A1 /* pokemon-species-22.json */,
-				7A86A2E623AB4F5C001CE5A1 /* pokemon-species-5.json */,
-				7A86A2E723AB4F5C001CE5A1 /* pokemon-species-29.json */,
-				7A86A2E823AB4F5C001CE5A1 /* pokemon-species-13.json */,
-				7A86A2E923AB4F5C001CE5A1 /* pokemon-species-9.json */,
-				7A86A2EA23AB4F5C001CE5A1 /* pokemon-species-25.json */,
-				7A86A2EB23AB4F5C001CE5A1 /* pokemon-species-24.json */,
-				7A86A2EC23AB4F5C001CE5A1 /* pokemon-species-8.json */,
-				7A86A2ED23AB4F5C001CE5A1 /* pokemon-species-12.json */,
-				7A86A2EE23AB4F5C001CE5A1 /* pokemon-species-28.json */,
+				7A86A2E023AB4F5C001CE5A1 /* pokemon-species-3.json */,
 				7A86A2EF23AB4F5C001CE5A1 /* pokemon-species-4.json */,
+				7A86A2E623AB4F5C001CE5A1 /* pokemon-species-5.json */,
+				7A86A2D723AB4F5C001CE5A1 /* pokemon-species-6.json */,
+				7A86A2D323AB4F5C001CE5A1 /* pokemon-species-7.json */,
+				7A86A2EC23AB4F5C001CE5A1 /* pokemon-species-8.json */,
+				7A86A2E923AB4F5C001CE5A1 /* pokemon-species-9.json */,
+				7A86A2D823AB4F5C001CE5A1 /* pokemon-species-10.json */,
+				7A86A2D223AB4F5C001CE5A1 /* pokemon-species-11.json */,
+				7A86A2ED23AB4F5C001CE5A1 /* pokemon-species-12.json */,
+				7A86A2E823AB4F5C001CE5A1 /* pokemon-species-13.json */,
+				7A86A2E223AB4F5C001CE5A1 /* pokemon-species-14.json */,
+				7A86A2E123AB4F5C001CE5A1 /* pokemon-species-15.json */,
+				7A86A2DC23AB4F5C001CE5A1 /* pokemon-species-16.json */,
+				7A86A2DA23AB4F5C001CE5A1 /* pokemon-species-17.json */,
+				7A86A2E423AB4F5C001CE5A1 /* pokemon-species-18.json */,
+				7A86A2DF23AB4F5C001CE5A1 /* pokemon-species-19.json */,
+				7A86A2DD23AB4F5C001CE5A1 /* pokemon-species-20.json */,
+				7A86A2D923AB4F5C001CE5A1 /* pokemon-species-21.json */,
+				7A86A2E523AB4F5C001CE5A1 /* pokemon-species-22.json */,
+				7A86A2DE23AB4F5C001CE5A1 /* pokemon-species-23.json */,
+				7A86A2EB23AB4F5C001CE5A1 /* pokemon-species-24.json */,
+				7A86A2EA23AB4F5C001CE5A1 /* pokemon-species-25.json */,
+				7A86A2D623AB4F5C001CE5A1 /* pokemon-species-26.json */,
+				7A86A2D423AB4F5C001CE5A1 /* pokemon-species-27.json */,
+				7A86A2EE23AB4F5C001CE5A1 /* pokemon-species-28.json */,
+				7A86A2E723AB4F5C001CE5A1 /* pokemon-species-29.json */,
+				7A86A2D523AB4F5C001CE5A1 /* pokemon-species-30.json */,
 			);
 			path = species;
 			sourceTree = "<group>";
@@ -417,6 +420,46 @@
 				7A86A2F223AB4F5C001CE5A1 /* ability-65.json */,
 			);
 			path = abilities;
+			sourceTree = "<group>";
+		};
+		7A86A33123AB50E9001CE5A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A86A33523AB5129001CE5A1 /* Setting */,
+				7A86A33423AB5116001CE5A1 /* Panel */,
+				7A86A33323AB510D001CE5A1 /* List */,
+				7A86A33223AB5102001CE5A1 /* Utils */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A86A33223AB5102001CE5A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7A86A33323AB510D001CE5A1 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				7A86A33623AB5142001CE5A1 /* PokemonInfoRow.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		7A86A33423AB5116001CE5A1 /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Panel;
+			sourceTree = "<group>";
+		};
+		7A86A33523AB5129001CE5A1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -607,6 +650,7 @@
 				7A86A2AA23AB2298001CE5A1 /* Ability.swift in Sources */,
 				7A86A28A23AA2A1D001CE5A1 /* ContentView.swift in Sources */,
 				7A86A28623AA2A1D001CE5A1 /* SceneDelegate.swift in Sources */,
+				7A86A33723AB5142001CE5A1 /* PokemonInfoRow.swift in Sources */,
 				7A86A2A023AB1432001CE5A1 /* FileHelper.swift in Sources */,
 				7A86A2AC23AB22A6001CE5A1 /* Language.swift in Sources */,
 				7A86A2AE23AB45A9001CE5A1 /* AbilityViewModel.swift in Sources */,
