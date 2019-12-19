@@ -13,7 +13,7 @@ struct PokemonList: View {
     @State var searchText: String = ""
     
     var body: some View {
-        List {
+        ScrollView {
             TextField("搜索", text: $searchText)
                 .frame(height: 40)
                 .padding(.horizontal, 25)
