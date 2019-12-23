@@ -45,7 +45,7 @@ extension View {
 }
 
 
-class MainTabbarController: UITabBarController {
+class MainTabbarController: UITabBarController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         //设置系统默认的蓝色
@@ -62,7 +62,7 @@ class MainTabbarController: UITabBarController {
         updateVc.view.backgroundColor = UIColor.red
         
         setupOneChildViewController(title: "小精灵", image: "flame", seletedImage: "flame.fill", controller: UIHostingController(rootView: PokemonRootView()))
-        setupOneChildViewController(title: "我的", image: "person", seletedImage: "person.fill", controller: UIHostingController(rootView: SettingRootView.init()))
+        setupOneChildViewController(title: "我的", image: "person", seletedImage: "person.fill", controller: UIHostingController(rootView: SettingRootView()))
     }
     fileprivate func  setupOneChildViewController(title: String,image: String,seletedImage: String,controller: UIViewController){
         controller.tabBarItem.title = title
@@ -72,6 +72,20 @@ class MainTabbarController: UITabBarController {
         controller.tabBarItem.image = UIImage(systemName: image)
         controller.tabBarItem.selectedImage = UIImage(systemName: seletedImage)
         let naviController = UINavigationController.init(rootViewController: controller)
+        //上滑隐藏导航下拉显示导航
+        naviController.hidesBarsOnSwipe = true
         addChild(naviController)
+    }
+    
+    // MARK: - 上滑隐藏导航下拉显示导航
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        
+        let pan = scrollView.panGestureRecognizer
+        let velocity = pan.velocity(in: scrollView).y
+        if velocity < -5 {
+            self.navigationController?.setNavigationBarHidden(true, animated: true)
+        } else if velocity > 5 {
+            self.navigationController?.setNavigationBarHidden(false, animated: true)
+        }
     }
 }
